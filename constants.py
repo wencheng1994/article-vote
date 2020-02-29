@@ -1,0 +1,3 @@
+ONE_WEEK_IN_SECONDS = 3600 * 24 * 7 # 一周的秒数
+VOTE_SCORE = 145 # 投一票所加分数
+ARTICLES_PER_PAGE = 25 # 每页的文章数量
