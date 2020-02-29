@@ -1,5 +1,8 @@
 import constants
 
+'''
+获取文章
+'''
 def article_get(conn, page, order='score:'):
     start = (page - 1) * constants.ARTICLES_PER_PAGE
     end = start + constants.ARTICLES_PER_PAGE - 1

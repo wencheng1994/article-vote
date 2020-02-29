@@ -1,9 +1,9 @@
-'''
-文章发布函数
-'''
 import time
 import constants
 
+'''
+文章发布函数
+'''
 def article_post(conn, user, title, link):
     article_id = str(conn.incr('article:'))
 
